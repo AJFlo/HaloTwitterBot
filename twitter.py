@@ -26,6 +26,6 @@ print("Tweeted: " + message)
 
 #CRON JOB DETAILS
 #sudo conrtab -e
-#*/ * * * * python twitter.py 
+#*/60 * * * * python twitter.py 
 #This will run this once every hour.
 #python twitter.py
