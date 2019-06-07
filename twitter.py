@@ -25,7 +25,7 @@ twitter.update_status(status=message)
 print("Tweeted: " + message)
 
 #CRON JOB DETAILS
-#sudo conrtab -e
+#crontab -e
 #*/60 * * * * python twitter.py 
 #This will run this once every hour.
 #python twitter.py
