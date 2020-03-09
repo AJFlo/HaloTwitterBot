@@ -4,3 +4,10 @@ A twitter bot I made on my Raspberry Pi that will tweet out dialog from the Halo
 
 # To Run
 python twitter.py
+
+# To Automate
+CRON JOB DETAILS
+crontab -e
+*/60 * * * * python twitter.py 
+
+This will run this once every hour.
